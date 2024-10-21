@@ -9,7 +9,7 @@ public class Programmer {
     public Programmer(String name, List<String> technologies) {
         this.name = name;
         this.technologies = technologies;
-        this.tasks = new ArrayList<>();
+        tasks = new ArrayList<>();
     }
 
     // Метод для добавления задачи
