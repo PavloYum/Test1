@@ -22,7 +22,7 @@ public class Main {
         System.out.println(programmer);
 
         // Выводим список всех задач
-        System.out.println("Tasks:");
+        System.out.println("Задача:");
         for (Task task : programmer.getTasks()) {
             System.out.println(task);
         }

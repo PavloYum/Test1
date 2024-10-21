@@ -2,15 +2,14 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class Programmer {
-    private String name; // Имя программиста
-    private List<Task> tasks; // Список задач
-    private List<String> technologies; // Список технологий
+    private String name;
+    private List<Task> tasks;
+    private List<String> technologies;
 
-    // Конструктор
     public Programmer(String name, List<String> technologies) {
         this.name = name;
         this.technologies = technologies;
-        this.tasks = new ArrayList<>(); // Инициализируем пустой список задач
+        this.tasks = new ArrayList<>();
     }
 
     // Метод для добавления задачи
@@ -36,6 +35,6 @@ public class Programmer {
     // Метод для вывода информации о программисте
     @Override
     public String toString() {
-        return "Programmer: " + name + ", Technologies: " + technologies;
+        return "Программист: %s, Технология: %s".formatted(name, technologies);
     }
 }

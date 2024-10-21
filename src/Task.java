@@ -26,6 +26,6 @@ public class Task {
     // Метод для вывода информации о задаче
     @Override
     public String toString() {
-        return "Task #" + number + ": " + title + " - " + description;
+        return "Задача #" + number + ": " + title + " - " + description;
     }
 }
