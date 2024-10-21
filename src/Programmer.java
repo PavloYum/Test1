@@ -35,6 +35,6 @@ public class Programmer {
     // Метод для вывода информации о программисте
     @Override
     public String toString() {
-        return "Программист: %s, Технология: %s".formatted(name, technologies);
+        return "Программист: %s, Технологии: %s".formatted(name, technologies);
     }
 }

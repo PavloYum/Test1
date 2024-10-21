@@ -9,9 +9,9 @@ public class Main {
         Programmer programmer = new Programmer("Pavlo Boiko", technologies);
 
         // Создаем несколько задач
-        Task task1 = new Task(1, "Реализовать вход", "Создать функцию входа");
-        Task task2 = new Task(2, "Исправить ошибки", "Устранить ошибки");
-        Task task3 = new Task(3, "Написать документацию", "Написать документацию");
+        Task task1 = new Task(1, "Реализовать вход", "");
+        Task task2 = new Task(2, "Исправить ошибки", "");
+        Task task3 = new Task(3, "Написать документацию", "");
 
         // Добавляем задачи программисту
         programmer.addTask(task1);
